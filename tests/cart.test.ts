@@ -1,5 +1,6 @@
 import { Cart } from "../src/cart/cart";
-import { SimpleProduct, Bundle } from "../src/Product/Bundle";
+import {  Bundle } from "../src/Product/Bundle";
+import { SimpleProduct} from "../src/Product/Product";
 import { PercentageDiscount, MwStStrategy } from "../src/cart/priceStrategy";
 
 test("tset with fruit Bundle", () => {
